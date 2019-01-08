@@ -15,9 +15,10 @@ class App extends Component {
       <div className="renderingCard">
       <Card />
       </div>
-      <div className="aboutCard" />
+      <div className="aboutCard" >
       <About />
       </div>
+      </div> 
     );
   }
 }

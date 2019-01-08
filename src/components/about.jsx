@@ -34,7 +34,7 @@ class Colors extends React.Component {
 	render() {
 		return(
 			<div className="aboutContainer">
-				<Card title="Title One" bgc={this.state.yellow} content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus officiis neque, eveniet ab, autem dolore saepe voluptate praesentium sapiente debitis, facere assumenda optio hic! Recusandae, libero. Laudantium ipsum cumque dolores!"/>
+				<Text title="Title One" bgc={this.state.yellow} content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus officiis neque, eveniet ab, autem dolore saepe voluptate praesentium sapiente debitis, facere assumenda optio hic! Recusandae, libero. Laudantium ipsum cumque dolores!"/>
 			</div>
 		)
 	}
