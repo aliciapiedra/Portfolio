@@ -9,7 +9,6 @@ const Card = () => {
         <div id="content">
           <div id="card">
             <div id="front">
-              <div id="arrow"><i className="fa fa-arrow-left"></i></div>
               <div id="top-pic"></div>
               <div id="avatar"></div>
               <div id="info-box">

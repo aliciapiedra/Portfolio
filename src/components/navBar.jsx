@@ -7,16 +7,13 @@ const navBar = () => {
 		<div id="navBar">
 		<div className="container">
 			<div className="link">
-			<i class="fas fa-user-circle">
-				<div className="text">About</div></i>
+				<div className="text">About</div>
 			</div>
 			<div className="link">
-			<i class="fas fa-clipboard">
-				<div className="text">Resume</div></i>
+				<div className="text">Resume</div>
 			</div>
 			<div className="link">
-			<i class="fas fa-project-diagram">
-				<div className="text"></div></i>
+				<div className="text">Projects</div>
 			</div>
 			<div className="link">
 				<div className="text">Contact</div>

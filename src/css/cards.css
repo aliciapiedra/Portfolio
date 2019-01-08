@@ -1,0 +1,35 @@
+.aboutContainer {
+    height: 100vh;
+    background-color: #111;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .aboutContainer .aboutCard {
+    width: 400px;
+    height: 300px;
+    background-color: #28282b;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 2px;
+    font-family: Roboto, sans-serif;
+    margin: 15px 15px;
+  }
+  .aboutContainer .aboutCard h2 {
+    margin: 0;
+  }
+  .aboutContainer .aboutCard .line {
+    width: 320px;
+    height: 5px;
+    margin-top: 10px;
+  }
+  .aboutContainer .aboutCard p {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
