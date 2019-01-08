@@ -5,7 +5,7 @@ class About extends React.Component {
 	render() {
 		return(
 			<div className="aboutCard">
-				<h2>{this.props.title}</h2>
+				<h2>About Me</h2>
 				<div className="line" style={{backgroundColor: this.props.bgc}}></div>
 				<p>{this.props.content}</p>
 			</div>
