@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/card.css'; 
-import NavBar from '../components/navBar'; 
+import NavBar from './NavBar'; 
 
 const Card = () => {
     return (

@@ -24,6 +24,7 @@
  .renderingNav{
      display: flex;
      margin-top: 1.5rem;
+     margin-left: 0;
  }
 
 #navBar {
@@ -31,7 +32,7 @@
      color: white; 
      width: 5rem;
      background: rgb(66, 65, 65);
-     margin: auto;
+     margin: 0;
      padding:10px 0px 20px 0px;
      /* border:1px solid #111; */
      border-radius:4px;
