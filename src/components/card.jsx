@@ -17,15 +17,18 @@ const Card = () => {
                   </div>
                   <div className="statingweb">
                   <div className="webDev">Web Developer</div>
+                  <div className="span">
+                  <span className="typed-cursor">|</span>
+                  </div>
                 </div>
               </div>
               <div className="socialMedia">
-              <i class="fab fa-github">
-                <a href="https://github.com/aliciapiedra"></a></i>
-              <i class="fab fa-linkedin">
-                <a href="https://www.linkedin.com/in/aliciapiedra/"></a></i>
-              <i class="fas fa-envelope-square">
-                <a href="mailto:aliciapiedra98@gmail.com"></a></i>
+              <a href="https://github.com/aliciapiedra"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aliciapiedra/"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:aliciapiedra98@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                <div className="span" >
+                <span className="typed-cursor">|</span>
+                </div>
               </div>
             </div>
             </div>

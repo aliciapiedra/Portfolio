@@ -171,15 +171,26 @@
     -webkit-filter: blur(10px);
   }
   
-  @keyframes arrowWiggle {
-    0% {
-      right: 50px;
-    }
-    50% {
-      right: 35px;
-    }
-    100% {
-      right: 50px;
-    }
-  }
   
+  .socialMedia a { 
+    margin-left: 5.2rem;
+    color: white;
+    margin-right: 2rem;
+    text-align: center; 
+  }
+
+  .socialMedia a:hover .text{
+    color: white;
+  }
+
+  .span {
+    margin-right: 3rem;
+    font-weight: bolder; 
+  }
+
+  .typed-cursor {
+    display: flex;
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 1.3rem;
+  }

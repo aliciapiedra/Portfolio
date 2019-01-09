@@ -5,44 +5,29 @@ class About extends React.Component {
 	render() {
 		return(
 			<div className="aboutCard">
-				<h2>About Me</h2>
-				<div className="line" style={{backgroundColor: this.props.bgc}}></div>
-				<p>{this.props.content}</p>
+			<div class="blog-card spring-fever">
+  			<div class="title-content">
+    			<h3>About Me</h3>
+    		<div class="intro"> <a href="#">Inspiration</a> </div>
+  			</div>
+  			<div class="card-info">
+    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
+				<a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
 			</div>
-		)
-	}
-}
-
-class Text extends React.Component {
-	render() {
-		return(
-			<a href={this.props.href}>{this.props.text}</a>
-		)
-	}
-}
-
-class Colors extends React.Component {
-	constructor() {
-		super()
-		this.state = {
-			yellow: '#fcd000',
-			blue: '#0ebeff',
-			green: '#47cf73',
-			purple: '#ae63e4'
-		}
-	}
-	render() {
-		return(
-			<div className="aboutContainer">
-				<Text title="Title One" bgc={this.state.yellow} content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus officiis neque, eveniet ab, autem dolore saepe voluptate praesentium sapiente debitis, facere assumenda optio hic! Recusandae, libero. Laudantium ipsum cumque dolores!"/>
+			<div class="utility-info">
+				<ul class="utility-list">
+				<li><span class="licon icon-like"></span><a href="#">2</a></li>
+				<li><span class="licon icon-com"></span><a href="#">12</a></li>
+				<li><span class="licon icon-dat"></span>03 jun 2017</li>
+				<li><span class="licon icon-tag"></span><a href="#">Photos</a>, <a href="#">Nice</a></li>
+				</ul>
 			</div>
+			<div class="gradient-overlay"></div>
+			<div class="color-overlay"></div>
+			</div>
+			</div>			
 		)
 	}
 }
-
-// ReactDOM.render(
-// 	<App/>,
-// 	document.getElementById('app')
-// )
 
 export default About 
