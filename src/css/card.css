@@ -1,27 +1,50 @@
-* {
+/* {
     box-sizing: border-box;
     transition: .5s ease-in-out;
-  }
+  }  */
   
-  html, body {
+  /* .renderingCard {
     background-color: #220200;
     height: 100%;
     overflow: hidden;
     font-family: helvetica neue,helvetica,arial,sans-serif;
+  } */
+
+  #all {
+    display: flex;
+    margin-left: 5rem; 
+    margin-top: 7vh;
   }
-  html h1, body h1 {
+
+  .renderingCard {
+    display: flex;
     font-size: 25px;
     font-weight: 200;
     color: white;
-    line-height: 30px;
-    margin-bottom: 10px;
+    line-height: 30px; 
+    box-shadow: black;
+    margin-left: 0.3em; 
+  } 
+
+  #card {
+    /* display: flex; */
+    /* justify-content: center;  */
+    /* align-content: center; */
+    align-items: flex-start; 
+    height: 35rem;
+    width: 30rem;
+    position: relative;
+    z-index: 1;
+    perspective: 600px;
   }
+
+
   .myName {
     display: flex;
     align-content: center; 
     font-size: 30px;
     color: white;
-    margin-left: 8rem;
+    margin-left: 7.3rem;
     margin-bottom: 0;
   }
   
@@ -30,11 +53,10 @@
     align-content: center;
     font-weight: normal;
     font-size: 13px;
-    margin-left: 10.3rem; 
+    margin-left: 9.4rem; 
     margin-top: 0;
     padding: 0;
-    color: red;
-
+    color: violet;
   }
 
   #wrapper {
@@ -52,15 +74,6 @@
     vertical-align: middle;
   }
   
-  #card {
-    height: 40rem;
-    width: 32rem;
-    margin-top: 4em; 
-    position: relative;
-    z-index: 1;
-    perspective: 600px;
-    margin-left: 12rem; 
-  }
   #card #front, #card #back {
     border-radius: 10px;
     height: 100%;
@@ -114,15 +127,18 @@
     display: table;
     left: 0;
     bottom: 0;
-    background: black;
+    background: rgb(61, 58, 58); 
     padding: 50px;
   }
   #card #front .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
     height: 50px;
     width: 100%;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    /* bottom: 0;
+    left: 0; */
     line-height: 50px;
     font-size: 18px;
     text-align: center;
@@ -133,7 +149,7 @@
     text-decoration: none;
     padding: 5px;
     line-height: 18px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
   #card #front .socialMedia {
     display: flex;
@@ -143,27 +159,38 @@
     transition: .25s ease-in-out;
   }
 
-  #background {
+  /* #background {
     position: fixed;
     background-color: white;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-  }
+  } */
   #background #background-image {
     -webkit-filter: blur(10px);
   }
   
-  @keyframes arrowWiggle {
-    0% {
-      right: 50px;
-    }
-    50% {
-      right: 35px;
-    }
-    100% {
-      right: 50px;
-    }
-  }
   
+  .socialMedia a { 
+    margin-left: 5.2rem;
+    color: white;
+    margin-right: 2rem;
+    text-align: center; 
+  }
+
+  .socialMedia a:hover .text{
+    color: white;
+  }
+
+  .span {
+    margin-right: 3rem;
+    font-weight: bolder; 
+  }
+
+  .typed-cursor {
+    display: flex;
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 1.3rem;
+  }
