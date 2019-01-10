@@ -12,8 +12,9 @@
 
   #all {
     display: flex;
-    margin-left: 5rem; 
-    margin-top: 7vh;
+    margin-left: 5rem;
+  
+    padding: 5rem; 
   }
 
   .renderingCard {
