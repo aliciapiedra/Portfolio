@@ -5,8 +5,22 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-card">
+                <h1>Get In Touch</h1>
+            <div className="mapbox"></div>
+            <div className="informationAboutMe">
+            <ul>
+            <div className="row">
+            <div className="col">
+                <li> <strong>Address:</strong> Miami,FL USA</li>
+                <li> <strong>Email:</strong> aliciapiedra98@gmail.com</li>
+                <li> <strong>Phone:</strong> +786 831 7575</li>
+                <li> <strong>Freelance:</strong> Available</li>
+            </div>
+            </div>
+            </ul>
+            </div>
             <div className="contactForm">
-                <p>Contact Me</p>
+                <h2>Contact Me</h2>
             <div>
                 <form action="/action_page.php">
                 <div className="contactMeForm">
