@@ -5,7 +5,7 @@ class About extends React.Component {
 	render() {
 		return(
 			<div className="aboutCard">
-			<div class="blog-card spring-fever">
+			<div class="about-card spring-fever">
   			<div class="title-content">
     			<h3>About Me</h3>
     		<div class="intro">Full Stack Software Developer</div>
