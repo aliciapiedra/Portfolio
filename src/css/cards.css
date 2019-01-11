@@ -2,7 +2,7 @@
 
 
 .about-card {
-  max-width: 550px;
+  max-width: 50rem;
   width:100%;
   height: 100vh;
   position: absolute;
@@ -27,7 +27,7 @@ color:#fff;
 }
 .about-card .color-overlay {
   background: rgba(64, 84, 94,0.5);
-  width: 550px;
+  width: 50rem;
   height: 100vh;
   position: absolute;
   z-index: 10;

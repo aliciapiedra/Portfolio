@@ -5,7 +5,9 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-card">
-                <h1>Get In Touch</h1>
+            <div className="getInTouch">
+                <h3>Get In Touch</h3>
+            </div>
             <div className="mapbox"></div>
             <div className="informationAboutMe">
             <ul>
@@ -20,7 +22,7 @@ class Contact extends Component {
             </ul>
             </div>
             <div className="contactForm">
-                <h2>Contact Me</h2>
+                <h3>Contact Me</h3>
             <div>
                 <form action="/action_page.php">
                 <div className="contactMeForm">
