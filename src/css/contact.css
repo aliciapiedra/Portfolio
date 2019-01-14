@@ -5,10 +5,11 @@
     background-color: black;
     padding: 20px;
 } */
-/* .contactInfo p {
+.contactInfo p {
     text-align: center;
     font-weight: 500;
-} */
+}
+g
 input[type=text],input[type=email], select, textarea {
     text-rendering: auto;
     color: initial;
@@ -49,6 +50,7 @@ input[type=submit]:hover {
     transition:all 0.4s;
     background-color: black;
     background-size: 100%;
+    overflow: auto;
   }
   .contact-card a{ 
     color:#fff;
@@ -109,30 +111,7 @@ input[type=submit]:hover {
 }
 
 
-
-ul {
-    list-style: disc;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-left: 0;
-    list-style-position: inside;
-}
-
-ul li {
-    padding: 11px 30px;
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-}
-
-.informationAboutMe .ul li {
-    padding: 11px 30px;
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-}
-
-.informationAboutMe ul li strong {
+.informationAboutMe strong {
     float: left;
     margin-right: 8px;
     padding: 1px 8px;
