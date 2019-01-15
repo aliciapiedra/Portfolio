@@ -11,38 +11,48 @@ class Contact extends Component {
             <div className="mapbox"></div>
             <div className="informationAboutMe">
             <ul>
-            <div className="row">
-            <div className="col">
+            <div className="infoCard">
                 <li> <strong>Address:</strong> Miami,FL USA</li>
+                <hr />
                 <li> <strong>Email:</strong> aliciapiedra98@gmail.com</li>
+                <hr />
                 <li> <strong>Phone:</strong> +786 831 7575</li>
+                <hr />
                 <li> <strong>Freelance:</strong> Available</li>
-            </div>
+                <hr />
             </div>
             </ul>
             </div>
             <div className="contactForm">
                 <h3>Contact Me</h3>
             <div>
-                <form action="/action_page.php">
+                <form>
                 <div className="contactMeForm">
+                <div className="flex">
                 <div className="contactNames">
-                        <label>First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-                        <label>Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                    <div className="namesName">
+                        <label>Full Name</label>
+                    </div>
+                    <div className="inputForName">
+                        <input type="text" id="fname" name="fullname" placeholder="Your name.." />
+                    </div>
                 </div>
                 <div className="email">
+                <div className="emailName">
                     <label>Email</label>
+                    </div>
                     <input type="email" id="email" name="email" placeholder="Your email" />
                 </div>
+                </div>
+                </div>
                 <div className="subject">
+                <div className="subjectName">
                   <label>Subject</label>
+                  </div>
                   <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                 </div>
                 <div className="submitContact">
                   <input type="submit" value="Submit" />
-                </div>
                 </div>
                   </form>
                   </div>

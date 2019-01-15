@@ -26,8 +26,10 @@
 
   
   .resume-intro {
-    width: 170px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* width: 170px; */
+    /* margin: 0 auto; */
     color: #ddd;
     font-style: italic;
     line-height: 18px;
@@ -35,20 +37,17 @@
   .resume-intro a{
     color: #ddd
   }
-  .resume-intro a:hover{
-    text-decoration:underline
-  }
 
   .resume-intro{
     font-size:0.8em
   }
 
-  .resume-card:hover .title-content,.title-content{
-    margin-top:40px
+  .resume-card:hover .title-content .title-content{
+    margin-top: 20px;
   }
 
   .bio {
-    padding-top: 5rem;
+    padding-top: 8.5rem;
     color: white;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -81,9 +80,6 @@
   font-weight: bold;
  }
 
- .detailsOfExperience ul {
-  padding: 5rem;
- }
 
  .detailsOfExperience {
    display: flex;

@@ -8,8 +8,8 @@ class Resume extends Component {
 			<div className="resume-card spring-fever">
   			<div className="title-content">
     			<h3>Resume</h3>
-			</div>
     		<div class="resume-intro">Full Stack Software Developer</div>
+			</div>
 			<div class="gradient-overlay"></div>
 			<div class="color-overlay"></div>
 				<div className="bio">
