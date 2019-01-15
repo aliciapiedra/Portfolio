@@ -17,7 +17,7 @@
   box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
   text-align: center;
   transition:all 0.4s;
-  background: url(https://unsplash.it/600/800?image=1061) center no-repeat;
+  background: black;
   background-size: 100%;
 }
 .about-card a{ 
@@ -25,35 +25,23 @@ color:#fff;
   text-decoration:none;
   transition:all 0.2s
 }
-.about-card .color-overlay {
-  background: rgba(64, 84, 94,0.5);
-  width: 50rem;
-  height: 100vh;
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  transition: 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-}
-.about-card .gradient-overlay {  
-  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
-  width: 550px;
-  height: 100vh;
-  position: absolute;
-  top: 350px;
-  left: 0;
-  z-index: 15;
-}
-.about-card:hover{
-    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
-}
+
+
 .about-card:hover .card-info {
   opacity: 1;
   bottom: 100px;
 }
-.about-card:hover .color-overlay {
-  background: rgba(64, 64, 70,0.8);
+
+.about-card .color-overlay {
+  background: rgba(64, 84, 94,0.5);
+  width: 50rem;
+  height: 510px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
 }
+
 .about-card:hover .title-content{
   margin-top:70px
 }
@@ -256,3 +244,53 @@ h3:after {
   height: 65vh;
 }
 
+.info-list ul li{
+  display: flex;
+  justify-content: center;
+  padding: 11px 30px;
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  font-size: 16px;
+}
+
+.text-box strong {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.8em;
+  visibility: visible;
+  margin-top: 11rem;
+  margin-bottom: 0;
+}
+
+.text-box p {
+  color: white;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  /* -webkit-box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+
+.flexing {
+  display: flex;
+  justify-content: row;
+  margin-right: 1rem;
+}
+
+.first-word {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.webName {
+  margin-top: 1rem;
+}

@@ -14,10 +14,39 @@ class About extends React.Component {
     			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
 				<a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
 			</div>
-			<div class="gradient-overlay"></div>
-			<div class="color-overlay"></div>
+			<div className="gradient-overlay"></div>
+			<div className="color-overlay"></div>
+			<div className="text-box">
+				<p><strong>Hello! I’m Alicia Piedra.</strong>	
+					<br /> Web designer from Miami, Fl, USA. I have rich experience in web development.</p>
 			</div>
-			</div>			
+			<hr />
+			<div className="flexing">
+				<div className="info-list">
+				<ul>
+					<li><strong>Age:</strong> 20</li> 
+					<li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Ruby on Rails</li> 
+					<li><strong>Freelance:</strong> Available</li>
+					<li><strong>Residence:</strong> Florida, USA</li>
+				</ul>
+				</div>
+				<div class="content services">	
+					<div class="title">	
+						<span class="first-word">My Services</span></div>
+							<div class="row service-items border-line-v">
+								<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+									<div class="service-item">
+										<div class="icon">
+										<i class="fas fa-desktop"></i>
+										</div>
+							<div class="webName">Web Development</div>
+								<p> Modern and mobile-ready website that will help you reach all of your marketing.</p></div>
+						</div>
+					</div> 
+				</div>
+			</div>
+			</div>
+		</div>		
 		)
 	}
 }

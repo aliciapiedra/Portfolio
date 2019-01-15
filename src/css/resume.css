@@ -24,6 +24,16 @@
     transition:all 0.2s
   }
 
+  .resume-card .color-overlay {
+    background: rgba(64, 84, 94,0.5);
+    width: 50rem;
+    height: 150vh;;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+
   
   .resume-intro {
     display: flex;
