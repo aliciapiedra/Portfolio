@@ -5,7 +5,8 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-card">
-            <div className="getInTouch">
+            <div className="color-overlay"></div>
+            <div className="title-content">
                 <h3>Get In Touch</h3>
             </div>
             <div className="mapbox"></div>
@@ -52,7 +53,9 @@ class Contact extends Component {
                   <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
                 </div>
                 <div className="submitContact">
+                <div className="title-content2">
                   <input type="submit" value="Submit" />
+                  </div>
                 </div>
                   </form>
                   </div>

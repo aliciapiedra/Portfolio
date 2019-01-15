@@ -41,6 +41,7 @@ class Resume extends Component {
 							<li>Delivered detailed directions to guests to ease and increase the efficieny of navigation throughout the resort.</li>
 							<li>Employed effective teamwork skills to accomplish company goals set forth by policy to ensure excellent guest satisfaction.</li>
 						</div>
+						<hr />
 						<div  className="titleOfExperience">
 						<li>Boucher Brothers</li>
 						</div>
