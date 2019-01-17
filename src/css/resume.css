@@ -7,8 +7,7 @@
     font-family: 'Droid Serif', serif;
     color:#fff;
     top: 13.5%;
-    /* right: 0;  
-    left: 0; */
+    
     margin-right: 3rem auto;
     border-radius: 0px;
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
@@ -17,7 +16,24 @@
     background-color: black;
     background-size: 100%;
     overflow: auto;
+    -webkit-animation-name: leftmove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: leftmove;
+    animation-duration: 2s;
+    overflow: scroll;
+    scroll-behavior: smooth;
   }
+
+  @-webkit-keyframes leftmove {
+    from {left: 25rem;}
+    to {left: 43rem;}
+  }
+  
+  @keyframes leftmove {
+    from {left: 25rem;}
+    to {left: 43rem;}
+  }
+
   .resume-card a{ 
   color:#fff;
     text-decoration:none;

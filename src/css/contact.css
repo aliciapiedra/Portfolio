@@ -36,36 +36,50 @@ input[type=submit]:hover {
   }
 
 .contact-card {
-    max-width: 50rem;
-    width:100%;
-    height: 65vh;
-    position: absolute;
-    font-family: 'Droid Serif', serif;
-    color:#fff;
-    top: 13.5%;
-    overflow: hidden;
-    border-radius: 0px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    transition:all 0.4s;
-    background-color: black;
-    background-size: 100%;
-    overflow: auto;
+        max-width: 50rem;
+        width:100%;
+        height: 65vh;
+        position: absolute;
+        font-family: 'Droid Serif', serif;
+        color:#fff;
+        top: 13.5%;
+        border-radius: 0px;
+        box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        transition:all 0.4s;
+        background: black;
+        background-size: 100%;
+        -webkit-animation-name: resumemove; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+        animation-name: resumemove;
+        animation-duration: 2s;
+        overflow: hidden;
+        margin-right: 3rem auto;
+        margin-left: 35.5rem;
+      }
+
+  @-webkit-keyframes resumemove {
+    from {left: -5rem;}
+    to {left: 7.5rem;}
   }
-  .contact-card a{ 
+  
+  @keyframes resumemove {
+    from {left: -5rem;}
+    to {left: 7.5rem;}
+  }
+
+  /* .contact-card a{ 
     color:#fff;
     text-decoration:none;
     transition:all 0.2s
-  }
+  } */
 
   .contact-card:hover .card-info {
     opacity: 1;
     bottom: 100px;
   }
   
-  .contact-card {
-      margin-left: 35.5rem;
-  }
+
 
   .informationAboutMe {
       margin-top: 7rem;
@@ -73,6 +87,7 @@ input[type=submit]:hover {
 
   .title-content {
       margin-top: 1.5rem;
+      margin-left: -1rem;
   }
 
 .informationAboutMe strong {
@@ -103,18 +118,18 @@ ul {
 }
 
 .infoCard li {
-    /* display: flex;
-    justify-content: center; */
-    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
     padding: 11px 30px;
     display: block;
-    width: 100%;
     position: relative;
+    height: 20px;
 }
 
 hr {
     width: 32.5em;
-    margin-right: 7.5rem;
+    margin-right: 8.5rem;
 }
 
 select, textarea {
@@ -164,3 +179,4 @@ select, textarea {
 .contactForm {
     position: relative;
 }
+
