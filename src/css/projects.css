@@ -16,7 +16,22 @@
     transition:all 0.4s;
     background: url(https://unsplash.it/600/800?image=1061) center no-repeat;
     background-size: 100%;
+    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: mymove;
+    animation-duration: 2s;
   }
+
+  @-webkit-keyframes mymove {
+    from {left: 25rem;}
+    to {left: 43rem;}
+  }
+  
+  @keyframes mymove {
+    from {left: 30rem;}
+    to {left: 43rem;}
+  }
+
   .projects-card a{ 
   color:#fff;
     text-decoration:none;

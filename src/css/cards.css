@@ -11,7 +11,7 @@
   top: 13.5%;
   /* right: 0;  
   left: 0; */
-  margin-right: 3rem auto;
+  /* margin-right: 3rem auto; */
   overflow: hidden;
   border-radius: 0px;
   box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
@@ -19,7 +19,22 @@
   transition:all 0.4s;
   background: black;
   background-size: 100%;
+  -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: mymove;
+  animation-duration: 2s;
 }
+
+@-webkit-keyframes mymove {
+  from {left: 25rem;}
+  to {left: 43rem;}
+}
+
+@keyframes mymove {
+  from {left: 25rem;}
+  to {left: 43rem;}
+}
+
 .about-card a{ 
 color:#fff;
   text-decoration:none;
@@ -294,3 +309,4 @@ h3:after {
 .webName {
   margin-top: 1rem;
 }
+
