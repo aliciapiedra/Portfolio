@@ -19,18 +19,18 @@
   transition:all 0.4s;
   background: black;
   background-size: 100%;
-  -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+  -webkit-animation-name: cardmove; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-  animation-name: mymove;
+  animation-name: cardmove;
   animation-duration: 2s;
 }
 
-@-webkit-keyframes mymove {
+@-webkit-keyframes cardmove {
   from {left: 25rem;}
   to {left: 43rem;}
 }
 
-@keyframes mymove {
+@keyframes cardmove {
   from {left: 25rem;}
   to {left: 43rem;}
 }
@@ -245,9 +245,7 @@ h3:after {
   .about-card:hover .title-content,.title-content{
   margin-top:40px
 }
-.about-card{
-  height:300px
-}
+
 .about-card h3{
   font-size:1.3em
 }

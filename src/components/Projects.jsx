@@ -11,6 +11,10 @@ class Projects extends Component {
               <h3>Projects</h3>
           </div>
             <div class="projects-intro">Full Stack Software Developer</div>
+              <div className="Guardian">
+                <img src="../images/widget-logo-guardian.png" alt="Guardian" />
+                
+              </div>
           <div class="gradient-overlay"></div>
           <div class="color-overlay"></div>
           </div>

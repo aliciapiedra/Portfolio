@@ -14,21 +14,22 @@
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     text-align: center;
     transition:all 0.4s;
-    background: url(https://unsplash.it/600/800?image=1061) center no-repeat;
+    background: black;
     background-size: 100%;
-    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: cardmove; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: mymove;
+    animation-name: cardmove;
     animation-duration: 2s;
   }
 
-  @-webkit-keyframes mymove {
+  @-webkit-keyframes cardmove {
     from {left: 25rem;}
     to {left: 43rem;}
   }
   
-  @keyframes mymove {
-    from {left: 30rem;}
+
+  @keyframes cardmove {
+    from {left: 25rem;}
     to {left: 43rem;}
   }
 
@@ -59,10 +60,11 @@
   }
   .projects-intro {
     width: 170px;
-    margin: 0 auto;
+    margin: auto;
     color: #ddd;
     font-style: italic;
     line-height: 18px;
+    margin-top: 6rem;
   }
   .projects-intro a{
     color: #ddd
@@ -73,8 +75,4 @@
 
   .projects-intro{
     font-size:0.8em
-  }
-
-  .projects-card:hover .title-content,.title-content{
-    margin-top:40px
   }

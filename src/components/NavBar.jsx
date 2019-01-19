@@ -17,6 +17,9 @@ class NavBar extends Component {
 		return (
 			<div id="navBar">
 				<div className="container">
+				<div className="link">
+						<div className="text"><Link to="/">Home</Link></div>
+					</div>
 					<div className="link">
 						<div className="text"><Link to="/about">About</Link></div>
 					</div>

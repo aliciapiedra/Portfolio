@@ -16,20 +16,18 @@
     background-color: black;
     background-size: 100%;
     overflow: auto;
-    -webkit-animation-name: leftmove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: cardmove; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: leftmove;
+    animation-name: cardmove;
     animation-duration: 2s;
-    overflow: scroll;
-    scroll-behavior: smooth;
   }
 
-  @-webkit-keyframes leftmove {
+  @-webkit-keyframes cardmove {
     from {left: 25rem;}
     to {left: 43rem;}
   }
   
-  @keyframes leftmove {
+  @keyframes cardmove {
     from {left: 25rem;}
     to {left: 43rem;}
   }
