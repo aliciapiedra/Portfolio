@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/card.css'; 
-import NavBar from './NavBar'; 
 
 const Card = () => {
     return (
@@ -23,7 +22,7 @@ const Card = () => {
                 </div>
               </div>
               <div className="socialMedia">
-              <a href="https://github.com/aliciapiedra"><i class="fab fa-github"></i></a>
+             <a href="https://github.com/aliciapiedra"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/aliciapiedra/"><i class="fab fa-linkedin"></i></a>
               <a href="mailto:aliciapiedra98@gmail.com"><i class="fas fa-envelope-square"></i></a>
                 <div className="span" >

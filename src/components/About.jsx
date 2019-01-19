@@ -10,10 +10,6 @@ class About extends React.Component {
     			<h3>About Me</h3>
     		<div class="intro">Full Stack Software Developer</div>
   			</div>
-  			<div class="card-info">
-    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim... 
-				<a href="#">Read Article<span class="licon icon-arr icon-black"></span></a>
-			</div>
 			<div className="gradient-overlay"></div>
 			<div className="color-overlay"></div>
 			<div className="text-box">
