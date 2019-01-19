@@ -51,7 +51,22 @@ input[type=submit]:hover {
     background-color: black;
     background-size: 100%;
     overflow: auto;
+    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: mymove;
+    animation-duration: 2s;
   }
+
+  @-webkit-keyframes mymove {
+    from {left: -5rem;}
+    to {left: 7.5rem;}
+  }
+  
+  @keyframes mymove {
+    from {left: -5rem;}
+    to {left: 7.5rem;}
+  }
+
   .contact-card a{ 
     color:#fff;
     text-decoration:none;
