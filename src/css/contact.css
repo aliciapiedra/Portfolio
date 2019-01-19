@@ -67,20 +67,19 @@ input[type=submit]:hover {
     to {left: 7.5rem;}
   }
 
-  .contact-card a{ 
+
+  /* .contact-card a{ 
     color:#fff;
     text-decoration:none;
     transition:all 0.2s
-  }
+  } */
 
   .contact-card:hover .card-info {
     opacity: 1;
     bottom: 100px;
   }
   
-  .contact-card {
-      margin-left: 35.5rem;
-  }
+
 
   .informationAboutMe {
       margin-top: 7rem;
@@ -88,6 +87,7 @@ input[type=submit]:hover {
 
   .title-content {
       margin-top: 1.5rem;
+      margin-left: -1rem;
   }
 
 .informationAboutMe strong {
@@ -118,18 +118,18 @@ ul {
 }
 
 .infoCard li {
-    /* display: flex;
-    justify-content: center; */
-    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
     padding: 11px 30px;
     display: block;
-    width: 100%;
     position: relative;
+    height: 20px;
 }
 
 hr {
     width: 32.5em;
-    margin-right: 7.5rem;
+    margin-right: 8.5rem;
 }
 
 select, textarea {
@@ -179,3 +179,4 @@ select, textarea {
 .contactForm {
     position: relative;
 }
+

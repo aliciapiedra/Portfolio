@@ -42,7 +42,9 @@ class Contact extends Component {
                 <div className="emailName">
                     <label>Email</label>
                     </div>
-                    <input type="email" id="email" name="email" placeholder="Your email" />
+                    <div className="inputForEmail">
+                    <input type="email" id="email" name="email" placeholder="Your email.." />
+                    </div>
                 </div>
                 </div>
                 </div>

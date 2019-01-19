@@ -11,7 +11,7 @@
   top: 13.5%;
   /* right: 0;  
   left: 0; */
-  margin-right: 3rem auto;
+  /* margin-right: 3rem auto; */
   overflow: hidden;
   border-radius: 0px;
   box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
@@ -307,3 +307,4 @@ h3:after {
 .webName {
   margin-top: 1rem;
 }
+
