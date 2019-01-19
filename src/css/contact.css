@@ -51,18 +51,19 @@ input[type=submit]:hover {
     background-color: black;
     background-size: 100%;
     overflow: auto;
-    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: contactmove; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation-name: mymove;
+    animation-name: contactmove;
     animation-duration: 2s;
+    margin-left: 35.5rem;
   }
 
-  @-webkit-keyframes mymove {
+  @-webkit-keyframes contactmove {
     from {left: -5rem;}
     to {left: 7.5rem;}
   }
   
-  @keyframes mymove {
+  @keyframes contactmove {
     from {left: -5rem;}
     to {left: 7.5rem;}
   }
