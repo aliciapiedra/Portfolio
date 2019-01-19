@@ -76,3 +76,8 @@
   .projects-intro{
     font-size:0.8em
   }
+
+  .guardianLogo {
+    margin-right: 33rem;
+    z-index: 200;
+  }
