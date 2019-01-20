@@ -26,6 +26,7 @@
     position: relative;
     z-index: 100;
     perspective: 600px;
+    box-shadow: 0 10px 6px -6px #777;
   }
 
 
