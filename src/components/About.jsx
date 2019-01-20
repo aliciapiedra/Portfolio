@@ -14,7 +14,7 @@ class About extends React.Component {
 			<div className="color-overlay"></div>
 			<div className="text-box">
 				<p><strong>Hello! I’m Alicia Piedra.</strong>	
-					<br /> Web designer from Miami, Fl, USA. I have rich experience in web development.</p>
+					<br /> Software Engineer from Miami Beach, Fl, USA.</p>
 			</div>
 			<hr />
 			<div className="flexing">
@@ -36,7 +36,7 @@ class About extends React.Component {
 										<i className="fas fa-desktop"></i>
 										</div>
 							<div class="webName">Web Development</div>
-								<p> Modern and mobile-ready website that will help you reach all of your marketing.</p></div>
+								<p> Modern and mobile-ready websites that will help you reach all of your marketing.</p></div>
 						</div>
 					</div> 
 				</div>
