@@ -5,10 +5,10 @@ class About extends React.Component {
 	render() {
 		return(
 			<div className="aboutCard">
-			<div class="about-card spring-fever">
-  			<div class="title-content">
+			<div className="about-card spring-fever">
+  			<div className="title-content">
     			<h3>About Me</h3>
-    		<div class="intro">Full Stack Software Developer</div>
+    		<div className="intro">Full Stack Software Developer</div>
   			</div>
 			<div className="gradient-overlay"></div>
 			<div className="color-overlay"></div>
@@ -26,14 +26,14 @@ class About extends React.Component {
 					<li><strong>Residence:</strong> Florida, USA</li>
 				</ul>
 				</div>
-				<div class="content services">	
-					<div class="title">	
-						<span class="first-word">My Services</span></div>
-							<div class="row service-items border-line-v">
-								<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
-									<div class="service-item">
-										<div class="icon">
-										<i class="fas fa-desktop"></i>
+				<div className="content services">	
+					<div className="title">	
+						<span className="first-word">My Services</span></div>
+							<div className="row service-items border-line-v">
+								<div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+									<div className="service-item">
+										<div className="icon">
+										<i className="fas fa-desktop"></i>
 										</div>
 							<div class="webName">Web Development</div>
 								<p> Modern and mobile-ready website that will help you reach all of your marketing.</p></div>
