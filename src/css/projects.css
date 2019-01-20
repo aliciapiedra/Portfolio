@@ -49,15 +49,7 @@
     left: 0;
     transition: 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
   }
-  .projects-card .gradient-overlay {  
-    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
-    width: 550px;
-    height: 100vh;
-    position: absolute;
-    top: 350px;
-    left: 0;
-    z-index: 15;
-  }
+  
   .projects-intro {
     width: 170px;
     margin: auto;
@@ -78,6 +70,23 @@
   }
 
   .guardianLogo {
-    margin-right: 33rem;
-    z-index: 200;
+    margin-left: 8rem;
+    z-index: 20;
+    position: absolute;
+    margin-top: 0.2rem;
+    width: 14rem;
+  }
+
+  .localLogo {
+    height: 2rem !important;
+    position: absolute;
+    z-index: 20;
+    margin-left: 30rem;
+    width: 11rem;
+    margin-top: 1.2rem;
+  }
+  
+  .logoForLocal {
+    height: 4rem;
+  
   }
