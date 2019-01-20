@@ -8,7 +8,7 @@ class Home extends Component {
              <div className="introductionToMe">
              <div className='iambleh'>
              <div className="fadeIn">
-                <p>Welcome<hr className="hrForHome"/></p> 
+                <p>Welcome <i class="fas fa-child"></i><hr className="hrForHome"/></p>
              </div>
             </div>
             </div>

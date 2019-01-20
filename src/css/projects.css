@@ -1,7 +1,7 @@
 .projects-card {
     max-width: 50rem;
     width:100%;
-    height: 65vh;
+    height: 70vh;
     position: absolute;
     font-family: 'Droid Serif', serif;
     color:#fff;
@@ -11,7 +11,7 @@
     margin-right: 3rem auto;
     overflow: hidden;
     border-radius: 0px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 6px -6px #777;
     text-align: center;
     transition:all 0.4s;
     background: black;
