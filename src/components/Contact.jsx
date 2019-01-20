@@ -17,7 +17,7 @@ class Contact extends Component {
                 <hr />
                 <li> <strong>Email:</strong> aliciapiedra98@gmail.com</li>
                 <hr />
-                <li> <strong>Phone:</strong> +786 831 7575</li>
+                <li> <strong>Phone:</strong> +786 532 3764</li>
                 <hr />
                 <li> <strong>Freelance:</strong> Available</li>
                 <hr />
