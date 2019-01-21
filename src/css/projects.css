@@ -71,7 +71,6 @@
   }
 
   .guardianLogo {
-    margin-left: 8rem;
     z-index: 20;
     position: absolute;
     margin-top: 0.2rem;
@@ -82,7 +81,7 @@
     height: 2rem !important;
     position: absolute;
     z-index: 20;
-    margin-left: 30rem;
+    margin-left: 18rem;
     width: 11rem;
     margin-top: 1.2rem;
   }
@@ -90,4 +89,31 @@
   .logoForLocal {
     height: 4rem;
   
+  }
+
+  .scoreboardLogo {
+    z-index: 20;
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 19rem;
+    width: 10rem;
+  }
+
+  .scoreboardImage {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .shoppingList {
+    z-index: 20;
+    position: absolute;
+    margin-left: 34rem;
+    width: 13rem;
+    margin-top: 0.6rem;
+  }
+
+  .shoppingImage {
+    height: 4rem;
+    width: 4rem;
+    color: white;
   }
