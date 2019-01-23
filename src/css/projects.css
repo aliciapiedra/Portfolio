@@ -20,6 +20,7 @@
     -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
     animation-name: cardmove;
     animation-duration: 2s;
+    overflow: scroll;
   }
 
   @-webkit-keyframes cardmove {
@@ -42,7 +43,7 @@
   .projects-card .color-overlay {
     background: rgba(64, 84, 94,0.5);
     width: 50rem;
-    height: 100vh;
+    height: 150vh;
     position: absolute;
     z-index: 10;
     top: 0;
@@ -73,17 +74,18 @@
   .guardianLogo {
     z-index: 20;
     position: absolute;
-    margin-top: 0.2rem;
-    width: 14rem;
+    margin-top: 0.3rem;
+    width: 29rem;
+    margin-left: 8.7rem;
   }
 
   .localLogo {
     height: 2rem !important;
     position: absolute;
     z-index: 20;
-    margin-left: 18rem;
-    width: 11rem;
-    margin-top: 1.2rem;
+    margin-left: 13rem;
+    width: 20rem;
+    margin-top: 20rem;
   }
   
   .logoForLocal {
@@ -94,8 +96,8 @@
   .scoreboardLogo {
     z-index: 20;
     position: absolute;
-    margin-top: 11rem;
-    margin-left: 19rem;
+    margin-top: 48rem;
+    margin-left: 18.5rem;
     width: 10rem;
   }
 
@@ -107,9 +109,9 @@
   .shoppingList {
     z-index: 20;
     position: absolute;
-    margin-left: 34rem;
-    width: 13rem;
-    margin-top: 0.6rem;
+    margin-left: 11rem;
+    width: 25rem;
+    margin-top: 34rem;
   }
 
   .shoppingImage {
